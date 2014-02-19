@@ -6,8 +6,12 @@ http://docs.docker.io/en/latest/installation/mac/
 ## Example
 
 ```puppet
-  include boot2docker
+  class{'boot2docker': user => 'alex'}
 ```
+
+## Requirements
+
+VirtualBox: https://www.virtualbox.org/wiki/Downloads
 
 ## Notes
 
